@@ -89,12 +89,7 @@ docker run -d -p 8000:8000 -v ${PWD}\tree.db:/app/tree.db tree-api
 ```
 
 #### 3. Access the API (Swagger UI)
-Open in browser:
-```
-Visit: http://localhost:8000/docs
-```
-to explore the API with Swagger UI.
-
+**Visit:** [http://localhost:8000/docs](http://localhost:8000/docs) to explore the API with Swagger UI.
 
 ---
 
