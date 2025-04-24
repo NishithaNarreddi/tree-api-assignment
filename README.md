@@ -17,9 +17,9 @@ A production-ready FastAPI service to manage tree data structures with relationa
 ---
 
 ## ⚙️ Three Ways to Set Up
-Option 1: Setup with Poetry
-Option 2: Setup with pip
-Option 3: Setup with 🐳 Docker
+- **Option 1:** Setup with [Poetry](https://python-poetry.org/)
+- **Option 2:** Setup with `pip`
+- **Option 3:** Setup with 🐳 Docker
 
 ### Prerequisites
 - Python 3.12.10
@@ -30,7 +30,7 @@ Option 3: Setup with 🐳 Docker
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
 ```
-                  or
+or
 ```bash
 curl -sSL https://install.python-poetry.org | py -
 ```
