@@ -16,7 +16,10 @@ A production-ready FastAPI service to manage tree data structures with relationa
 
 ---
 
-## ⚙️ Two Ways to Set Up
+## ⚙️ Three Ways to Set Up
+- **Option 1:** Setup with [Poetry](https://python-poetry.org/)
+- **Option 2:** Setup with `pip`
+- **Option 3:** Setup with 🐳 Docker
 
 ### Prerequisites
 - Python 3.12.10
@@ -27,7 +30,7 @@ A production-ready FastAPI service to manage tree data structures with relationa
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
 ```
-or for Windows:
+or
 ```bash
 curl -sSL https://install.python-poetry.org | py -
 ```
@@ -86,14 +89,7 @@ docker run -d -p 8000:8000 -v ${PWD}\tree.db:/app/tree.db tree-api
 ```
 
 #### 3. Access the API (Swagger UI)
-Open in browser:
-```
-Visit:
-```
-http://localhost:8000/docs
-```
-to explore the API with Swagger UI.
-```
+**Visit:** [http://localhost:8000/docs](http://localhost:8000/docs) to explore the API with Swagger UI.
 
 ---
 
